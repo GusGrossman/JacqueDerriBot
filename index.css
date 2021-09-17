@@ -1,0 +1,48 @@
+.left {
+	position: fixed;
+	left: 50%;
+	width: 50%;
+	height: 100vh;
+}
+body {
+	background-color: red;
+}
+
+.scrollbar-w-2::-webkit-scrollbar {
+    width: 0.25rem;
+    height: 0.25rem;
+    background-color: red;
+}
+
+.scrollbar-track-blue-lighter::-webkit-scrollbar-track {
+    --bg-opacity: 1;
+   
+    background-color: rgba(247, 250, 252, var(--bg-opacity));
+}
+
+.scrollbar-thumb-blue::-webkit-scrollbar-thumb {
+	position: fixed;
+	width: 50%;
+    --bg-opacity: 1;
+    background-color: black;
+
+}
+.marquee_text {
+	top: 0%;
+	height: 5vh;
+	background-color: #eefecf; 
+	font-family: 'favorit-light'; 
+	z-index: 21222222;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+	display: inline-block;
+}
+.marquee_text p {
+	font-size: 18px;
+	padding: 0%;
+	margin: 1vh;
+
+}
+
